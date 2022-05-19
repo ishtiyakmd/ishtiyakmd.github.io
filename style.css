@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+body{
+    /* background-color: #6D8B74; */
+    background-color: #EFEAD8;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.flex-whole{
+    display: flex;
+    flex-direction: column;
+}
+
+.more{
+    background-color: #5F7161;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px
+}
+
+.grid-whole{
+    display: grid;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    margin-top: 3%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.flex-container{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    /* background-color: #D0C9C0; */
+    background-color: #5F7161;
+    color: #EFEAD8;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #EFEAD8;
+
+}
+
+.flex-item{
+    height: 400px;
+}
+
+.flex-item>img{
+    width: 320px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.contact{
+    /* background-color: #D0C9C0; */
+    background-color: #5F7161;
+    color: #EFEAD8;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+    justify-self: end;
+        border-width: 2px;
+    border-style: solid;
+    border-color: #EFEAD8;
+}
+
+.education{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    color: #EFEAD8;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #EFEAD8;
+    padding: 20px;
+}
+
+.education>h1{
+    margin-top: 0px;
+}
+.flex-edu{
+    display: inline-grid;
+    width: 100%;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    text-decoration: dashed;
+    row-gap: 10px;
+
+}
+
+.grid-data{
+    color: #EFEAD8;
+}
+
+.skills{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    color: #EFEAD8;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #EFEAD8;
+    padding: 20px;
+}
+
+.skills>h1{
+    margin-top: 0px;
+}
+
+.Projects{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    color: #EFEAD8;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #EFEAD8;
+    padding: 20px;
+}
+
+.Projects>h1{
+    margin-top: 0px;
+}
+
+.strengths{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    color: #EFEAD8;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #EFEAD8;
+    padding: 20px;
+}
+
+.strengths>h1{
+    margin-top: 0px;
+}
